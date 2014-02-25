@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section version="5.0" xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:xi="http://www.w3.org/2001/XInclude"
+         xmlns:svg="http://www.w3.org/2000/svg"
+         xmlns:m="http://www.w3.org/1998/Math/MathML"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xmlns:db="http://docbook.org/ns/docbook">
+  <title>Building a Sample Application</title>
+
+  <section>
+    <title>What is Apache Maven?</title>
+    <para>
+        Apache Maven is a Java based build tool geared around reusable plugins,
+        and dependencies. It provides a standardized approach to developing
+        software which follow common patterns.
+    </para>
+
+    <para>
+        Maven projects build what are called artifacts, and are organized by
+        three components: groupId, artifactId, and version. The groupId is
+        generally shared amongst multiple artifacts and refers to either a
+        company, or a project - a groupId usually follows Java’s package
+        naming conventions of a reserved domain name -
+        eg. com.smxemail.testapp.
+    </para>
+
+  </section>
+
+</section>
